@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     button.addEventListener('click', function () {
         let count = parseInt(counter.innerText);
-        counter.innerText = ++count;
+        counter.innerText = count + 2;
     });
 
     // 新しいボタンに対するイベントリスナーを追加
